@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="calci.css">
+</head>
+<body>
+    <div id="container">
+        <input id="display">
+        <div id="keys">
+            <button onclick="appendtodisplay('+')" class="operator-btn">+</button>
+            <button onclick="appendtodisplay('7')">7</button>
+            <button onclick="appendtodisplay('8')">8</button>
+            <button onclick="appendtodisplay('9')">9</button>
+            <button onclick="appendtodisplay('-')" class="operator-btn">-</button>
+            <button onclick="appendtodisplay('4')">4</button>
+            <button onclick="appendtodisplay('5')">5</button>
+            <button onclick="appendtodisplay('6')">6</button>
+            <button onclick="appendtodisplay('*')" class="operator-btn">*</button>
+            <button onclick="appendtodisplay('3')">3</button>
+            <button onclick="appendtodisplay('2')">2</button>
+            <button onclick="appendtodisplay('1')">1</button>
+            <button onclick="appendtodisplay('/')" class="operator-btn">/</button>
+            <button onclick="appendtodisplay('.')" class="operator-btn">.</button>
+            <button onclick="calculate()" class="operator-btn">=</button>
+            <button onclick="cleardisplay()" class="operator-btn">c</button>
+
+
+        </div>
+
+    </div>
+    <script src="calci.js"></script>
+    
+</body>
+</html>
