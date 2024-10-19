@@ -1,0 +1,39 @@
+h2{
+    background-color: rgba(0, 0, 255, 0.86);
+    max-width: 50%;
+    color:white;
+    padding:5px 10px 10px;
+    border-radius: 5px;
+    border:none;
+    text-align: center;
+    margin:auto;
+}
+form{
+    text-align: center;
+    width:50%;
+    margin:auto;
+    padding:5px 10px 10px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.725);
+
+}
+button[type="button"]{
+    background-color:rgba(0, 128, 0, 0.722);
+    color:white;
+    border:none;
+    padding:5px 10px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+
+    cursor:pointer;
+
+}
+#textbox{
+    max-width: 75%;
+    text-align: center;
+    font-size: 1em;
+}
+div{
+    box-shadow: aliceblue;
+}
