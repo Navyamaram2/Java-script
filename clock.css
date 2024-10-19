@@ -1,0 +1,24 @@
+body{
+    background-position:center;
+    background-image: url("img.png");
+    background-color:rgba(0, 0, 255, 0.695);
+    border:5px;
+    border-radius: 50px;
+    border-color: none !important;
+}
+#clockcontainer{
+    align-content: center;
+    font-size: large;
+    height:70vh;
+}
+#display{
+    text-align: center;
+    font-size: 50px;
+    font-family:monospace;
+    font-weight: bold;
+    text-shadow: 50px;
+    color:white;    
+    backdrop-filter: blur 50px;
+    box-shadow: 5px 5px 5px 5px transparent;
+    
+}
